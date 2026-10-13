@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    color: #555;
+    font-family: 'Lato', arial, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                        url('/Omnifood\ Contents/hero.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.row ul{
+    max-width: 1140;
+    margin: 0 auto;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 40px;
+    list-style: none;
+    position: absolute;
+    top: 6%;
+    right: 21%;
+}
+
+.hero{
+    width: 1140;
+    position: absolute;
+    top: 50%;
+    left: 39%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 120%;
+    word-spacing: 4px;
+}
+
+.logo{
+    position: absolute;
+    top: 2%;
+    left: 21.6%;
+    height: 100px;
+    width: auto;
+}
+
+.hero h1{
+    font-weight: inherit;
+    text-transform: uppercase;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #fff;
+}
+
+.btn:hover, btn:active{
+    background-color: #cf6d17;
+}
+
+.btn-full{
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+}
+
+.btn-ghost{
+    border: 1px solid;
+    color: #e67e22;
+    transition: color 0.2;
+}
