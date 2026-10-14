@@ -17,6 +17,7 @@ Header {
     background-attachment: fixed;
     background-position: center;
     text-transform: capitalize;
+    overflow: hidden;
 }
 .row {
     max-width: 1140px;
@@ -82,4 +83,69 @@ Header {
 }
 .navigation li a:hover, navigation li a:active {
     border-bottom: 1px solid #e67e22;
+}
+
+.flexbox-container {
+    margin-top:100px;
+    display:flex;
+    flex-wrap:no-wrap;
+    flex-shrink: 1;
+    justify-content: space-between;
+    max-width: 100%;
+    overflow: hidden;
+    background-color:black;
+}
+
+.flexbox-container img {
+    width: 25%;
+    flex: 1;
+    min-width: 0;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.flexbox-container2 {
+    display:flex;
+    flex-wrap:no-wrap;
+    flex-shrink: 1;
+    justify-content: space-between;
+    max-width: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+
+.flexbox-container2 img {
+    width: 25%;
+    flex: 1;
+    min-width: 0;
+    object-fit: cover;
+    overflow:hidden;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.meal-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    object-fit:cover;
+    display:block;
+    transition: transform 0.5s, opacity 0.5s;
+    overflow: hidden;
+}
+
+.meal-photo img:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.meal-image {
+    overflow:hidden;
+    width:25%;
 }
