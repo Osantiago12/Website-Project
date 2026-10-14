@@ -1,64 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="test.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Omnifood</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 </head>
+
 <body>
     <Header>
         <nav class="nav-bar">
             <div class="row">
-            <img src="Omnifood Contents/logo-white.png" alt ="" class="logo">
-            <ul class ="navigation">
-                <li><a href="#">Food delivery</a></li>
-                <li><a href="#">How it works</a></li>
-                <li><a href="#">Our cities</a></li>
-                <li><a href="#">Sign up</a></li>
-            </ul>
-        </div>
+                <img src="Omnifood Contents/logo-white.png" alt="" class="logo">
+                <ul class="navigation">
+                    <li><a href="#">Food delivery</a></li>
+                    <li><a href="#">How it works</a></li>
+                    <li><a href="#">Our cities</a></li>
+                    <li><a href="#">Sign up</a></li>
+                </ul>
+            </div>
         </nav>
 
-        <div class ="hero-text-box">
+        <div class="hero-text-box">
             <h1>Goodbye junk food. <br> Hello super healthy meals.</h1>
             <br>
-            <a href ="#" class="btn btn-full">I'm hungry</a>
-            <a href ="#" class="btn btn-ghost">Show me more</a>
+            <a href="#" class="btn btn-full">I'm hungry</a>
+            <a href="#" class="btn btn-ghost">Show me more</a>
         </div>
     </Header>
-    <div class="meal-photo">
-    <div class="flexbox-container">
-    <div class="meal-image">
-        <img src="Omnifood Contents/1.jpg" alt="Image 1">
-    </div>
-    <div class="meal-image">
-        <img src="Omnifood Contents/2.jpg" alt="Image 2">
-    </div>
-    <div class="meal-image">
-        <img src="Omnifood Contents/3.jpg" alt="Image 3">
-    </div>
-    <div class="meal-image">
-        <img src="Omnifood Contents/4.jpg" alt="Image 4">
-    </div>
-    </div>
-    <div class="flexbox-container2">
-    <div class="meal-image">
-        <img src="Omnifood Contents/5.jpg" alt="Image 5">
-    </div>
-    <div class="meal-image">
-        <img src="Omnifood Contents/6.jpg" alt="Image 6">
-    </div>
-    <div class="meal-image">
-        <img src="Omnifood Contents/7.jpg" alt="Image 7">
-    </div>
-    <div class="meal-image">
-        <img src="Omnifood Contents/8.jpg" alt="Image 8">
-    </div>
-    </div>
-    </div>
+
+    <article>
+        <h2>Get food fast — not fast food</h2>
+        <br>
+        <p id="one">Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy.</p>
+        <p id="two">No time for cooking. So let us take care of that, we’re really good at it, we promise!</p>
+
+        <div class="middle">
+            <div class="section">
+                <ion-icon name="infinite-outline" class="icons"></ion-icon>
+                <h3>up to 365 days/year</h3>
+                <p>Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage.
+                    You can also choose to order more flexibly if that's your style.</p>
+            </div>
+
+            <div class="section">
+                <ion-icon name="stopwatch-outline" class="icons"></ion-icon>
+                <h3>Ready in 20 minutes</h3>
+                <p>You're only twenty minutes away from your delicious and super healthy meals delivered right to your
+                    home. We work with the best chefs in each town to ensure that you're 100% happy.</p>
+            </div>
+            <div class="section">
+                <ion-icon name="leaf-outline" class="icons"></ion-icon>
+                <h3>100% organic</h3>
+                <p>All our vegetables are fresh, organic and local. Animals are raised without added hormones or
+                    antibiotics. Good for your health, the environment, and it also tastes better!</p>
+            </div>
+            <div class="section">
+                <ion-icon name="cart-outline" class="icons"></ion-icon>
+                <h3>Order anything</h3>
+                <p>We don't limit your creativity, which means you can order whatever you feel like. You can also choose
+                    from our menu containing over 100 delicious meals. It's up to you!</p>
+            </div>
+        </div>
+    </article>
+    <aside>
+        <div class="meal-photo">
+            <div class="flexbox-container">
+                <div class="meal-image">
+                    <img src="/Omnifood Contents/1.jpg" alt="Image 1">
+                </div>
+                <div class="meal-image">
+                    <img src="/Omnifood Contents/2.jpg " alt="Image 2">
+                </div>
+                <div class="meal-image">
+                    <img src="/Omnifood Contents/3.jpg" alt="Image 3">
+                </div>
+                <div class="meal-image">
+                    <img src="/Omnifood Contents/4.jpg" alt="Image 4">
+                </div>
+            </div>
+            <div class="flexbox-container2">
+                <div class="meal-image">
+                    <img src="/Omnifood Contents/5.jpg" alt="Image 5">
+                </div>
+                <div class="meal-image">
+                    <img src="/Omnifood Contents/6.jpg" alt="Image 6">
+                </div>
+                <div class="meal-image">
+                    <img src="/Omnifood Contents/7.jpg" alt="Image 7">
+                </div>
+                <div class="meal-image">
+                    <img src="/Omnifood Contents/8.jpg" alt="Image 8">
+                </div>
+            </div>
+        </div>
+    </aside>
 </body>
+
 </html>
