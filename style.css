@@ -45,7 +45,7 @@ Header {
     transform: translate(-50%, -50%);
     color: white;
     font-size: 120%;
-    margin-left: 1250px;
+    margin-left:750px;
     margin-top: -60px;
 }
 
@@ -152,8 +152,8 @@ h2:after {
 .middle {
     display: flex;
     height: 100px;
-    width: 45%;
-    margin-left: 30%;
+    width: 85%;
+    margin-left: 13%;
 }
 
 .section p {
@@ -180,46 +180,31 @@ h2:after {
 
 /* Middle section [Rene] */
 .flexbox-container {
-    margin-top: 200px;
+    margin-top: 50px;
     display: flex;
-    flex-wrap: no-wrap;
-    flex-shrink: 1;
-    justify-content: space-between;
     max-width: 100%;
-    overflow: hidden;
     background-color: black;
 }
 
 .flexbox-container img {
-    width: 25%;
-    flex: 1;
-    min-width: 0;
     object-fit: cover;
-    overflow: hidden;
 }
 
 .flexbox-container2 {
     display: flex;
-    flex-wrap: no-wrap;
-    flex-shrink: 1;
-    justify-content: space-between;
     max-width: 100%;
     overflow: hidden;
     background-color: black;
 }
 
 .flexbox-container2 img {
-    width: 25%;
-    flex: 1;
-    min-width: 0;
     object-fit: cover;
-    overflow: hidden;
 }
 
 .meal-photo {
+    padding-top:200px;
     width: 100%;
     margin: 0;
-    overflow: hidden;
     box-sizing: border-box;
 }
 
@@ -229,9 +214,8 @@ h2:after {
     height: auto;
     transform: scale(1.15);
     object-fit: cover;
-    display: block;
+    display:block;
     transition: transform 0.5s, opacity 0.5s;
-    overflow: hidden;
 }
 
 .meal-photo img:hover {
@@ -245,3 +229,242 @@ h2:after {
 }
 
 /* //////////////////////////////////////////////////////////// */
+
+.section4-heading {
+    margin: 0 auto;
+    text-align:center;
+    padding-top:100px;
+    font-size: 225%;
+}
+.section4{
+    background-color: rgb(249, 246, 246);
+}
+
+.app-iphone{
+    width:15%;
+    height:auto;
+    margin-left:33%;
+    margin-top:55px;
+    padding-bottom: 60px;
+}
+.btn-app:link,
+.btn-app:visited {
+    border: 0;
+}
+
+.btn-app img{
+    height: 50px;
+    width: auto;
+    margin-right:10px;
+}
+.numbers {
+    border : 1px solid #e67e22;
+    border-radius:50%;
+    font-size:225%;
+    color: #e67e22;
+    margin-top:75px;
+    height:50px;
+    width:50px;
+    padding-bottom:25px;
+    margin-left: 50px;
+}
+.one{
+    padding-left:10px;
+}
+.two{
+    padding-left:10px;
+}
+.three{
+    padding-left: 10px;;
+}
+.mid-section{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.step-container{
+    margin-top:85px;
+    padding-left:25px;
+}
+.step1{
+    margin-bottom:90px;
+    width:60%;
+}
+
+.step2{
+    margin-bottom:80px;
+    width:65%;
+}
+.step3{
+    width:0%;
+}
+.flexbox-container3{
+    padding-top: 50px;
+}
+.spaceFiller{
+    padding-top: 50px;
+}
+
+.section6-heading{
+   text-align:center;
+   color: white;
+   padding-top:100px;
+   font-size:250%;
+   height:50px;
+}
+.section6{
+background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('Omnifood Contents/back-customers.jpg');
+  background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    text-transform: capitalize;
+    overflow: hidden;
+}
+
+.section6-text{
+    display:flex;
+    color:white;
+    font-size: 110%;
+    text-align: justify;
+}
+
+blockquote{
+    font-style:italic;
+    line-height:145%;
+    position:relative;
+    margin-top: 40px;
+    padding-left:6%;
+    padding-right: 6%;
+    padding-top: 100px;
+}
+
+blockquote:before {
+    padding-top: 100px;
+    content: "\201C";
+    font-size:500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    bottom: -5px;
+
+}
+cite{
+    margin-top:40px;
+    color:white;
+    display: block;
+    padding-bottom: 35px;
+    padding-left: 10px;
+}
+blockquote img{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+}
+blockquote footer{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.section7{
+    background-color: rgb(249, 246, 246);
+   padding-bottom: 70px;
+}
+.section7-header {
+    margin: 0 auto;
+    text-align:center;
+    padding-top:100px;
+    font-size: 225%;
+}
+.subscriptions{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    padding-top:40px;
+    margin-bottom: 20px;
+}
+.subscription1{
+    border: 1px solid rgb(250, 249, 249);;
+    border-radius: 5px;
+    width:280px;
+}
+.subscription2{
+    border: 1px solid rgb(250, 249, 249);;
+    border-radius: 5px;
+        width:280px;
+}
+.subscription3{
+    border: 1px solid rgb(250, 249, 249);
+    border-radius: 5px;
+        width:280px;
+}
+.subscription1,
+.subscription2,
+.subscription3{
+    background-color: rgb(255,255,255);
+    width:23%;
+}
+.list li::before{
+    content: "✓";
+    color:#e67e22;
+    font-size: 15px;
+    margin-right:10px;
+}
+ul {
+    list-style: none;
+}
+li.cross::before {
+    content: "x";
+    font-size:20px;
+    color: #e67e22;
+}
+.subscription1 .mealPrice{
+    border-bottom: 1px solid rgb(225, 222, 222);
+}
+.mealPrice{
+    width:100%;
+    padding: 15px 20px;
+}
+.subscription2 .mealPrice{
+    border-bottom: 1px solid rgb(225, 222, 222);
+}
+.subscription3 .mealPrice{
+    border-bottom: 1px solid rgb(225, 222, 222);
+}
+.subscription-border{
+    border-bottom: 1px solid rgb(225, 222, 222);
+}
+.subscription1 .btn{
+    display: table;
+    margin: 0 auto;
+}
+.subscription2 .btn{
+    display: table;
+    margin: 0 auto;
+}
+.subscription3 .btn{
+    display: table;
+    margin: 0 auto;
+}
+.monthly{
+    color:#e67e22;
+    font-size: 60px;
+    padding-left:15px;
+}
+.monthly span{
+    font-size:17px;
+}
+.list{
+    padding:10px;
+    padding-left: 30px;
+}
+.sign-up{
+    padding:20px;
+}
+.header-padding{
+    padding:15px;
+}
+.subscription3 .monthly{
+    padding-bottom: 24px;
+
+}
