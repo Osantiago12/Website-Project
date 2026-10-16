@@ -109,9 +109,9 @@ navigation li a:active {
     border-bottom: 1px solid #e67e22;
 }
 
-/* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////// */
 
-/* Middle section. [Orlando] */
+/* Section 2 [Orlando] */
 article {
     background-color: white;
     height: 500px;
@@ -176,9 +176,9 @@ h2:after {
     height: 100px;
 }
 
-/* ////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////// */
 
-/* Middle section [Rene] */
+/* Section 3 [Rene] */
 .flexbox-container {
     margin-top: 200px;
     display: flex;
@@ -242,6 +242,90 @@ h2:after {
 .meal-image {
     overflow: hidden;
     width: 25%;
+}
+
+/* //////////////////////////////////////////////////////////// */
+
+/* placeholder for section 4 */
+.placeholder{
+    height: 500px;
+    background-color: #555;
+}
+
+/* Section 5 [Orlando] */
+.five{
+    background-color: white;
+    height: 480px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.five h2{
+    margin-top: 75px;
+    font-weight: inherit;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+}
+
+.locations{
+    margin-top: 50px;
+    display: flex;
+    margin-left: 25px;
+    gap: 30px;
+}
+
+.spot img{
+    height: auto;
+    width: 250px;
+    text-align: center;
+}
+.spot h3{
+    font-weight: inherit;
+    text-transform: uppercase;
+}
+
+.locations .icons {
+    font-size: 350%;
+    height: 20px;
+    color: #e67e22;
+    display: inline-block;
+    vertical-align: middle;
+    --ionicon-stroke-width: 20px;
+}
+.spot a{
+    color: #e67e22;
+}
+
+/* //////////////////////////////////////////////////////////// */
+
+/* Section 6 [Orlando] */
+.six{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('Omnifood Contents/back-customers.jpg');
+    height: 500px;
+    color: #fff;
+}
+.six h2{
+    font-weight: inherit;
+    text-transform: uppercase;
+    margin-top: 75px;
+    text-align: center;
+}
+
+blockquote{
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+blockquote:before{
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
 }
 
 /* //////////////////////////////////////////////////////////// */
