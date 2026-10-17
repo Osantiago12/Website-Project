@@ -75,6 +75,7 @@ Header {
 .btn-ghost {
     border: 1px solid;
     color: #e67e22;
+    background-color: transparent;
     transition: color 0.2s ease;
 }
 
@@ -162,7 +163,8 @@ h2:after {
     line-height: 1.16;
 }
 
-.section h3, article h2 {
+.section h3,
+article h2 {
     font-weight: inherit;
     text-transform: uppercase;
 }
@@ -246,20 +248,101 @@ h2:after {
 
 /* //////////////////////////////////////////////////////////// */
 
-/* placeholder for section 4 */
-.placeholder{
-    height: 500px;
-    background-color: #555;
+/* Section 4 [Rene] */
+.section4-heading {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 225%;
 }
 
+.section4 {
+    background-color: rgb(249, 246, 246);
+}
+
+.app-iphone {
+    width: 15%;
+    height: auto;
+    margin-left: 33%;
+    margin-top: 55px;
+    padding-bottom: 60px;
+}
+
+.btn-app:link,
+.btn-app:visited {
+    border: 0;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.numbers {
+    border: 1px solid #e67e22;
+    border-radius: 50%;
+    font-size: 225%;
+    color: #e67e22;
+    margin-top: 75px;
+    height: 50px;
+    width: 50px;
+    padding-bottom: 25px;
+    margin-left: 50px;
+}
+
+.one {
+    padding-left: 10px;
+}
+
+.two {
+    padding-left: 10px;
+}
+
+.three {
+    padding-left: 10px;
+    ;
+}
+
+.mid-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.step-container {
+    margin-top: 85px;
+    padding-left: 25px;
+}
+
+.step1 {
+    margin-bottom: 90px;
+    width: 60%;
+}
+
+.step2 {
+    margin-bottom: 80px;
+    width: 65%;
+}
+
+.step3 {
+    width: 0%;
+}
+
+.flexbox-container3 {
+    padding-top: 50px;
+}
+
+/* //////////////////////////////////////////////////////////// */
+
 /* Section 5 [Orlando] */
-.five{
+.five {
     background-color: white;
     height: 480px;
     max-width: 1140px;
     margin: 0 auto;
 }
-.five h2{
+
+.five h2 {
     margin-top: 75px;
     font-weight: inherit;
     text-transform: uppercase;
@@ -267,19 +350,20 @@ h2:after {
     font-size: 35px;
 }
 
-.locations{
+.locations {
     margin-top: 50px;
     display: flex;
     margin-left: 25px;
     gap: 30px;
 }
 
-.spot img{
+.spot img {
     height: auto;
     width: 250px;
     text-align: center;
 }
-.spot h3{
+
+.spot h3 {
     font-weight: inherit;
     text-transform: uppercase;
 }
@@ -292,14 +376,15 @@ h2:after {
     vertical-align: middle;
     --ionicon-stroke-width: 20px;
 }
-.spot a{
+
+.spot a {
     color: #e67e22;
 }
 
 /* //////////////////////////////////////////////////////////// */
 
 /* Section 6 [Orlando] */
-.six{
+.six {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('Omnifood Contents/back-customers.jpg');
     background-size: cover;
     background-position: center;
@@ -307,7 +392,8 @@ h2:after {
     height: 480px;
     color: #fff;
 }
-.six h2{
+
+.six h2 {
     font-weight: inherit;
     text-transform: uppercase;
     margin-top: 75px;
@@ -340,7 +426,7 @@ blockquote cite {
     margin-top: 20px;
 }
 
-blockquote img{
+blockquote img {
     height: auto;
     width: 40px;
     border-radius: 50%;
@@ -356,16 +442,299 @@ blockquote::before {
 
 /* //////////////////////////////////////////////////////////// */
 
-/* placeholder for section 7 */
+/* Section 7 [Rene] */
 
-.placeholder{
-    height: 500px;
-    background-color: #555;
+.section7 {
+    background-color: rgb(249, 246, 246);
+    padding-bottom: 70px;
 }
 
+.section7-header {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 225%;
+}
+
+.subscriptions {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+
+.subscription1 {
+    border: 1px solid rgb(250, 249, 249);
+    ;
+    border-radius: 5px;
+    width: 280px;
+}
+
+.subscription2 {
+    border: 1px solid rgb(250, 249, 249);
+    ;
+    border-radius: 5px;
+    width: 280px;
+}
+
+.subscription3 {
+    border: 1px solid rgb(250, 249, 249);
+    border-radius: 5px;
+    width: 280px;
+}
+
+.subscription1,
+.subscription2,
+.subscription3 {
+    background-color: rgb(255, 255, 255);
+    width: 23%;
+}
+
+.list li::before {
+    content: "✓";
+    color: #e67e22;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+li.cross::before {
+    content: "x";
+    font-size: 20px;
+    color: #e67e22;
+}
+
+.subscription1 .mealPrice {
+    border-bottom: 1px solid rgb(225, 222, 222);
+}
+
+.mealPrice {
+    width: 100%;
+    padding: 15px 20px;
+}
+
+.subscription2 .mealPrice {
+    border-bottom: 1px solid rgb(225, 222, 222);
+}
+
+.subscription3 .mealPrice {
+    border-bottom: 1px solid rgb(225, 222, 222);
+}
+
+.subscription-border {
+    border-bottom: 1px solid rgb(225, 222, 222);
+}
+
+.subscription1 .btn {
+    display: table;
+    margin: 0 auto;
+}
+
+.subscription2 .btn {
+    display: table;
+    margin: 0 auto;
+}
+
+.subscription3 .btn {
+    display: table;
+    margin: 0 auto;
+}
+
+.monthly {
+    color: #e67e22;
+    font-size: 60px;
+    padding-left: 15px;
+}
+
+.monthly span {
+    font-size: 17px;
+}
+
+.list {
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.sign-up {
+    padding: 20px;
+}
+
+.header-padding {
+    padding: 15px;
+}
+
+.subscription3 .monthly {
+    padding-bottom: 24px;
+
+}
+
+/* //////////////////////////////////////////////////////////// */
+
 /* Section 8 [Orlando] */
-.eight{
-    
+.eight {
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+}
+
+.map {
+    position: absolute;
+    z-index: 0;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.45);
+    /* actually the part of the code dimming the map by half */
+}
+
+.rightSide h2 {
+    font-weight: inherit;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.rightSide {
+    position: absolute;
+    top: 50%;
+    right: 6%;
+    z-index: 1;
+    width: 45%;
+    padding: 28px;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.84);
+    border-radius: 4px;
+}
+
+.rightSide form {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    gap: 14px;
+}
+
+.rightSide form>div {
+    /* the > is the child combinator, it basically targets the divs in rightside form only, rather than others */
+    display: grid;
+    grid-template-columns: minmax(120px, 34%) minmax(0, 1fr);
+    /* searched for this answer, minmax. minmax("is at least 120px",
+                                                                     "can grow up to 34%") & minmax("column can shrink to 0", 
+                                                                            "otherwise it takes the remaining space (1fr)") */
+    align-items: center;
+    gap: 10px;
+}
+
+.rightSide .letter .checkbox-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.rightSide .letter input[type=checkbox],
+span {
+    display: inline;
+    position: relative;
+}
+
+.rightSide .send {
+    justify-content: end;
+    margin-top: 25px;
+    margin-left: 320px;
+}
+
+.rightSide .send button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+/* //////////////////////////////////////////////////////////// */
+
+/*  Footer [Orlando] */
+.ending {
+    min-height: 190px;
+    background-color: #2c2c2c;
+    padding: 55px 20px 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    row-gap: 35px;
+    align-content: start;
+}
+
+.ending .text ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+}
+
+.ending .text a {
+    color: #929090;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.2s;
+}
+
+.ending .text a:hover {
+    color: #ffffff;
+}
+
+.ending .socials ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 22px;
+    list-style: none;
+}
+
+.ending .socials ion-icon {
+    font-size: 24px;
+    color: #929090;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.ending .socials .face:hover {
+    color: #1907b4;
+}
+.ending .socials .twitter:hover {
+    color: #078cb4;
+}
+.ending .socials .google:hover {
+    color: #bd0202;
+}
+.ending .socials .insta:hover {
+    color: #86064c;
+}
+
+.ending .copyright {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: #929090;
+    font-size: 16px;
 }
 
 /* //////////////////////////////////////////////////////////// */
